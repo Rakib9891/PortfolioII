@@ -4,3 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Navbar  */
+.nav-link{
+    @apply text-gray-800;
+    text-decoration: none;
+    font-weight: 500;
+    @apply px-3 py-3;;
+    transition: all 0.2s ease;
+    @apply shadow-xl bg-white;
+    font-size: 1rem;;
+}
+.nav-link:hover {
+    background-color: #ffffff00;
+    @apply text-gray-100
+}
+
+.nav-link:active {
+    @apply text-gray-100;
+    @apply shadow ;
+}

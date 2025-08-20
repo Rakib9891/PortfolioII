@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <header className="flex border py-2 my-2 justify-center rounded-2xl gap-6 bg-gray-100 text-[1rem]">
+    <header className="navbar flex gap-0 max-w-fit rounded-4xl border border-gray-600 overflow-hidden bg-[#01cd74]  my-2 relative top-2 left-[50%] translate-x-[-50%] shadow z-50">
       <NavLink
         to="/"
         className={({ isActive }) =>
