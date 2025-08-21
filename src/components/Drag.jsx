@@ -47,9 +47,9 @@ function useFollowPointer(ref) {
  * ==============   Styles   ================
  */
 const ball = {
-  width: 100,
-  height: 100,
-  backgroundColor: "#ff0088",
+  width: 50,
+  height: 50,
+  backgroundColor: "gray",
   borderRadius: "50%",
   position: "absolute", // so it can stick to the corner
 }

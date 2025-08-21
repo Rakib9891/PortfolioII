@@ -15,11 +15,26 @@
     font-size: 1rem;;
 }
 .nav-link:hover {
-    background-color: #ffffff00;
-    @apply text-gray-100
+    @apply text-gray-100 bg-gray-500;
 }
 
 .nav-link:active {
     @apply text-gray-100;
     @apply shadow ;
+}
+
+/* main   */
+
+/* Anqor tag  */
+
+.social-items{
+    @apply bg-gray-500 text-white p-3 rounded-2xl shadow-2xl transition-all duration-300 ease-in-out border border-gray-500 hover:bg-white hover:text-gray-800 hover:px-6;
+}
+.fade-in {
+  animation: fadeIn 1.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

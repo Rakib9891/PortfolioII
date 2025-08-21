@@ -3,11 +3,12 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <header className="navbar flex gap-0 max-w-fit rounded-4xl border border-gray-600 overflow-hidden bg-[#01cd74]  my-2 relative top-2 left-[50%] translate-x-[-50%] shadow z-50">
+    <header className="navbar flex gap-0 max-w-fit border border-gray-500 overflow-hidden   my-2 relative top-2 left-[50%] translate-x-[-50%] shadow z-50">
+
       <NavLink
         to="/"
         className={({ isActive }) =>
-          `nav-link ${isActive ? "text-cyan-400" : "text-black"}`
+          `nav-link ${isActive ? "text-cyan-400" : "text-gray-400"}`
         }
       >
         Home
@@ -16,7 +17,7 @@ function NavBar() {
       <NavLink
         to="/Profile"
         className={({ isActive }) =>
-          `nav-link ${isActive ? "text-cyan-400" : "text-black"}`
+          `nav-link ${isActive ? "text-cyan-400" : "text-gray-400"}`
         }
       >
         Profile
@@ -25,7 +26,7 @@ function NavBar() {
       <NavLink
         to="/Projects"
         className={({ isActive }) =>
-          `nav-link ${isActive ? "text-cyan-400" : "text-black"}`
+          `nav-link ${isActive ? "text-cyan-400" : "text-gray-400"}`
         }
       >
         Projects
@@ -34,7 +35,7 @@ function NavBar() {
       <NavLink
         to="/Contact"
         className={({ isActive }) =>
-          `nav-link ${isActive ? "text-cyan-400" : "text-black"}`
+          `nav-link ${isActive ? "text-cyan-400" : "text-gray-400"}`
         }
       >
         Contact
