@@ -6,7 +6,7 @@
 }
 /* Navbar  */
 .nav-link{
-    @apply text-gray-800;
+    @apply text-gray-500;
     text-decoration: none;
     font-weight: 500;
     @apply px-3 py-3;;
@@ -28,7 +28,7 @@
 /* Anqor tag  */
 
 .social-items{
-    @apply bg-gray-500 text-white p-3 rounded-2xl shadow-2xl transition-all duration-300 ease-in-out border border-gray-500 hover:bg-white hover:text-gray-800 hover:px-6;
+    @apply bg-gray-500 text-white p-3 rounded shadow-2xl transition-all duration-300 ease-in-out border border-gray-500 hover:bg-white hover:text-gray-500 hover:scale-x-120 inline-block;
 }
 .fade-in {
   animation: fadeIn 1.5s ease-out forwards;
@@ -40,7 +40,7 @@
 }
 
 .popup {
-  animation: popup 0.5s ease-out forwards;
+  animation: popup 0.2s ease-out forwards;
 }
 
 @keyframes popup {
