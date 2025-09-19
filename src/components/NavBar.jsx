@@ -3,12 +3,15 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <header className="navbar flex gap-0 max-w-fit border border-gray-500 overflow-hidden   my-2 relative top-2 left-[50%] translate-x-[-50%] shadow z-50">
-
+    <header className="inline-flex items-center space-x-2 bg-gray-100 p-2 rounded-2xl mx-auto mt-8 my-4 shadow-lg">
       <NavLink
         to="/"
         className={({ isActive }) =>
-          `nav-link ${isActive ? "text-cyan-400" : "text-gray-400"}`
+          `px-6 py-2.5 rounded-xl font-medium text-sm transition-all duration-300 ${
+            isActive
+              ? "bg-white text-gray-900 shadow-sm"
+              : "text-gray-600 hover:text-gray-900 hover:bg-white/50"
+          }`
         }
       >
         Home
@@ -17,7 +20,11 @@ function NavBar() {
       <NavLink
         to="/Profile"
         className={({ isActive }) =>
-          `nav-link ${isActive ? "text-cyan-400" : "text-gray-400"}`
+          `px-6 py-2.5 rounded-xl font-medium text-sm transition-all duration-300 ${
+            isActive
+              ? "bg-white text-gray-900 shadow-sm"
+              : "text-gray-600 hover:text-gray-900 hover:bg-white/50"
+          }`
         }
       >
         Profile
@@ -26,7 +33,11 @@ function NavBar() {
       <NavLink
         to="/Projects"
         className={({ isActive }) =>
-          `nav-link ${isActive ? "text-cyan-400" : "text-gray-400"}`
+          `px-6 py-2.5 rounded-xl font-medium text-sm transition-all duration-300 ${
+            isActive
+              ? "bg-white text-gray-900 shadow-sm"
+              : "text-gray-600 hover:text-gray-900 hover:bg-white/50"
+          }`
         }
       >
         Projects
@@ -35,7 +46,11 @@ function NavBar() {
       <NavLink
         to="/Contact"
         className={({ isActive }) =>
-          `nav-link ${isActive ? "text-cyan-400" : "text-gray-400"}`
+          `px-6 py-2.5 rounded-xl font-medium text-sm transition-all duration-300 ${
+            isActive
+              ? "bg-white text-gray-900 shadow-sm"
+              : "text-gray-600 hover:text-gray-900 hover:bg-white/50"
+          }`
         }
       >
         Contact

@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react"
 import { motion, useSpring } from "motion/react"
+import { shadow } from "three/tsl"
 
 export default function Drag() {
   const ref = useRef(null)
@@ -49,9 +50,10 @@ function useFollowPointer(ref) {
 const ball = {
   width: 50,
   height: 50,
-  backgroundColor: "gray",
+  backgroundColor: "green",
   borderRadius: "50%",
   position: "absolute", // so it can stick to the corner
+  shadow: "5px 5px 15px rgba(0,255,0,1)",
 }
 
 

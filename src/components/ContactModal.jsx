@@ -7,9 +7,7 @@ function ContactModal() {
       id="contact"
       className="min-h-screen flex flex-col items-center m-10 px-6"
     >
-      <h2 className="text-5xl font-extrabold text-gray-500 leading-relaxed text-shadow-4xs rounded-xl ">
-        Get In Touch
-      </h2>
+
       <p className="text-gray-500 max-w-xl text-center mb-8">
         I’m always open to new opportunities and collaborations. Whether you
         have a question or just want to say hi, feel free to reach out.

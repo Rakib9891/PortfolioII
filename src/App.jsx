@@ -10,9 +10,9 @@ import NavBar from "./components/NavBar";
 import "./App.css";
 function App() {
   return (
-    <div className="">
+    <div className="flex justify-center flex-col">
       <Router>
-        <NavBar className=''></NavBar>
+        <NavBar></NavBar>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
